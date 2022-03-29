@@ -67,8 +67,11 @@ Instructions on how to use them in your own application are linked below.
 
 | README |
 | ------ | ------ |
+
 | GitHub | [plugins/github/README.md][PlGh] |
+
 | Google Drive | [plugins/googledrive/README.md][PlGd] |
+
 | Medium | [plugins/medium/README.md][PlMe] |
 
 ## Development
