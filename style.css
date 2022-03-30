@@ -16,10 +16,7 @@ a {
     color: white;
     position: relative;
 }
-.blueMenu {
-    height: 50px;
-    border: 1px solid blue;
-}
+
 .top {
    width: 25%;
    height: 30px;
@@ -103,3 +100,39 @@ ul > li > h2 {
     padding-top: -10px;
 }
 
+/* Nav */
+nav {
+    height: 50px;
+    background-color: #1f4985;
+   
+}
+.nav-content {
+    max-width: 100%;
+    margin-inline: auto;
+    /* border: 3px solid rgb(55, 180, 86); */
+    color: white;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-inline: 8px;
+}
+.nav-option {
+    height: 100%;
+    display: flex;
+    /* border: 1px solid black; */
+    padding: 14px 8px 15px 8px;
+    gap: 10px;
+    margin-top: 0px;
+    font-weight: light;
+}
+.fa-v {
+    font-size: 13px;
+}
+
+nav > li > p {
+    color: white;
+}
+/* Hover */
+.nav-option:hover {
+    background-color: #e42529;
+}
