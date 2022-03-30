@@ -136,3 +136,82 @@ nav > li > p {
 .nav-option:hover {
     background-color: #e42529;
 }
+
+/* Slider */
+.wrapper {
+  width: 100%;
+}
+
+.slides-container {
+    height: 100%;
+    position: relative;
+}
+
+.slide-image {
+    width: 100%;
+    position: absolute;
+}
+
+.slide-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.next-btn, .prev-btn {
+    background: grey;
+    padding: 16px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    background-color: transparent;
+    /* border: 3px solid green; */
+    z-index: 100;
+    cursor: pointer;
+    transition: 400ms;
+}
+
+.next-btn:hover, .prev-btn:hover {
+    color: grey ;
+}
+
+.prev-btn {
+    left: 0;
+    top: 150px;
+}
+
+.next-btn {
+    right: 0;
+    top: 150px;
+}
+
+.navigation-dots {
+    z-index: 4000;
+    display: flex;
+    height: 32px;
+    justify-content: center;
+    align-items: center;
+    margin: 16px 0;
+    position: absolute;
+    top: 250px;
+    left: 40%;
+}
+
+.single-dot {
+    background-color: #aaacb2;
+    height: 8px;
+    width: 8px;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 400ms;
+    margin: 0 11px;
+   
+}
+
+.single-dot.active {
+    background-color: #3f3f3f;
+}
+
