@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+html {
+    scroll-behavior: smooth;
+  }
 a {
     text-decoration: none;
     color: white;
@@ -18,9 +21,8 @@ a {
 }
 
 .top {
-   width: 25%;
-   height: 30px;
-    /* border: 2px solid rgb(72, 255, 224); */
+    width: 25%;
+    height: 30px;
     color:  white;
     display: flex;
     align-items: center;
@@ -54,12 +56,10 @@ ul > li > h2 {
 }
 
 .bottom {
-    /* border: 1px solid black; */
     max-width: 95%;
     margin: auto;
     margin-top: 52px;
     display: flex;
-    /* justify-content: space-between; */
     align-items: center;
 }
 .bottom img {
@@ -68,7 +68,6 @@ ul > li > h2 {
 .search {
     display: flex;
     width: 40%;
-    /* border: 1px solid rgb(163, 137, 255); */
     margin-left: 120px;
     margin-right: 20px;
 }
@@ -140,15 +139,21 @@ nav > li > p {
 /* Slider */
 .wrapper {
   width: 100%;
+  overflow: hidden;
+  /* border: 3px solid goldenrod;   */
+  height: 350px;
 }
 
 .slides-container {
-    height: 100%;
+    transition: 900ms cubic-bezier(0.48, 0.15, 0.18, 1);
+    height: 500px;
     position: relative;
+    /* border: 8px solid hotpink;   */
 }
 
 .slide-image {
     width: 100%;
+    height: 65%;
     position: absolute;
 }
 
@@ -165,9 +170,8 @@ nav > li > p {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    font-size: 20px;
+    font-size: 24px;
     background-color: transparent;
-    /* border: 3px solid green; */
     z-index: 100;
     cursor: pointer;
     transition: 400ms;
@@ -195,7 +199,7 @@ nav > li > p {
     align-items: center;
     margin: 16px 0;
     position: absolute;
-    top: 250px;
+    top: 450px;
     left: 40%;
 }
 
@@ -215,3 +219,370 @@ nav > li > p {
     background-color: #3f3f3f;
 }
 
+/* 1st Integration */
+#staycool{
+    justify-content: space-around;
+    margin-top: 45px; 
+    display: flex;
+    justify-content: space-evenly;
+    height: 260px;
+    /* margin-bottom: 50px; */
+}
+
+#staycool>img{
+    width: 22%;
+    margin-top: 18px;
+    margin-left: -2%;
+    margin-bottom: 32px;
+}
+
+
+
+.title{
+    font-size: 30px;
+    font-weight: 100;
+    margin-bottom: 20px;
+    font-family: Roboto,"system-ui",sans-serif;
+    margin-top: 10px;
+    color: #333333;
+    margin-left: 2%;
+}
+
+/* 2nd Integration */
+
+#latesttechnology{
+    justify-content: space-around;
+    margin-top: 45px; 
+    display: flex;
+    justify-content: space-evenly;
+    height: 260px;
+    /* margin-bottom: 50px; */
+}
+
+#latesttechnology>img{
+    width: 22%;
+    margin-top: 18px;
+    margin-left: -2%;
+}
+
+.title2 > span{
+    font-size: 30px;
+    font-weight: 100;
+    margin-bottom: 20px;
+    font-family: Roboto,"system-ui",sans-serif;
+    margin-top: 10px;
+    color: #333333;
+    margin-left: 2%;
+}
+
+/* 3rd Intgration */
+
+#iphone13{
+    justify-content: space-around;
+    margin-top: 45px; 
+    display: flex;
+    justify-content: space-evenly;
+    height: 260px;
+    /* margin-bottom: 50px; */
+}
+
+#iphone13 > img{
+    width: 22%;
+    margin-top: 18px;
+    margin-left: -2%;
+}
+/* ____________________________________________________ */
+
+
+/* _______________________________________________________ */
+ /* 5th Integration -> Slider  */
+.pro {
+    /* border: 1px solid darkcyan; */
+    margin-top: 4%;
+    margin-bottom: -2%;
+}
+
+.h3-sli {
+    font-size: 28px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    font-family: Roboto,"system-ui",sans-serif;
+    margin-top: 10px;
+    color: #333;
+    text-align: center;
+}
+.slide > h3 {
+    color: #333333;
+}
+.slide > h3:hover {
+    color: #28508a;
+}
+
+
+.container{
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    margin-top: 2%;
+    /* border: 3px solid yellow; */
+   height: 300px;
+}
+/* .whole{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+} */
+.slide img{
+    /* margin-left: 70px; */
+    display: inline-block;
+   width:110%;
+   height:110%;
+   object-fit: contain;
+   object-position: center;
+   transform: translateY(10%);
+   /* border: 1px solid red;  */
+}
+.caption{
+    /* width: 100%; */
+    box-sizing: border-box;
+    /* margin-left: 100px; */
+    text-align: center;
+    color: #1f4985;
+    font-weight: bold;
+    font-weight: 400;
+    margin-top: 16px;
+    font-size: 26px;
+}
+   
+
+.arrow{
+    cursor: pointer;
+    position:absolute;
+    top: calc(50% - 33px) ;
+    color: black;
+    background-color: none;
+    padding: 42px 18px;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.next{
+    right: 10px;
+}
+.prev{
+    left: 10px;
+}
+.slide{
+    /* display: none; */
+    width: 200px;
+    height: 224px;
+    margin: 10px;
+}
+
+/* View All Button */
+
+.view {
+    font-size: 22px;
+    padding: 13px 40px;
+    background-color: #003380;
+    border-radius: 26px;
+    display: inline-block;
+    margin-top: 4.5%;
+    margin-left: 45%;
+}
+.view:hover {
+    background-color: white;
+    color: #003380;
+    border: 1px solid #003380;
+}
+
+/* Integration Watch */
+#boatwatch{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:10px
+    
+}
+span{
+    display: block;
+}
+.stars{
+    color:rgb(255, 164, 27) ;
+}
+.redcolorpara{
+    color:#3f669f ;
+}
+.redcolorpara:hover{
+    color: red;
+}
+.grey{
+    color:#8d8d8d;
+}
+#boatwatch{
+    display: flex;
+    cursor: pointer;
+    /* margin-left: -15px;
+margin-right: -15px; */
+}
+
+.button{
+    color: green;
+    border-radius: 10px;
+    border: 1px solid green;
+    cursor: pointer;
+}
+.boat_images{
+    width: 180px;
+    height: 180px;
+}
+#left_watch{
+   display: grid;
+   grid-template-columns: repeat(1,1fr);
+}
+.leftwatch{
+   justify-content: center;
+   height: 269px; 
+   width: 280px;
+   margin-right: 15px;
+}
+#container{
+   display: flex;
+  justify-content: space-between;
+  margin: auto;
+  border: solid gray;
+}
+
+
+/* Features of Company */
+
+#feturesofreliance{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#feturesofreliance>div{
+    background-color: rgb(240, 238, 238);
+    width: 24%;
+    margin: auto;
+    height: 100px;
+    /* box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background-color: #f7f7f7;
+}
+.a{
+    height: 40px;
+    width: auto;
+    justify-content: center;
+    display: flex;
+}
+.b{
+    color: #003380;
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 0;
+    text-align: center;
+}
+.ser {   
+    padding-top: 6px;
+}
+/* #feturesofreliance > img {
+    padding: 4px;
+} */
+
+.h4-feat {
+    color: #003380;
+    font-size: 26px;
+    margin-top: 2%;
+    text-align: center;
+}
+
+#feturesofreliance {
+    margin-top: 3.2%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    padding: 5px;
+    padding-top: 8px;
+}
+
+/* Testing _____________________________________________________________________ */
+
+.splide__slide {
+    padding: 6rem;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    background: #ecf0f1;
+}
+
+.splide__slide__container {
+    width: 400px;
+    text-align: center;
+    
+}
+.splide__arrow {
+    background: none;
+    font-size: larger;
+    margin-top: 2%;
+    fill: lightgray;
+}
+.splide__arrow:hover {
+    background: none;
+    cursor: pointer;
+   fill: white;
+}
+
+/* .splide__arrow--prev { */
+    /* margin-left: 20px; */
+/* } */
+
+/* .splide__arrow--next { */
+
+    /* margin-right: 20px; */
+/* } */
+
+.slide__content {
+    margin: 1rem 0;
+    font-size: 1.3rem;
+    /* border: 3px solid slateblue; */
+}
+
+.slide-img__wrapper {
+    display: flex;
+    align-items: center;
+    
+}
+
+.slide-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.splide__pagination {
+    /* border: 1px solid red; */
+    display: inline-block;
+    position: absolute;
+    max-height: 25px;
+    /* top: 10px;	*/
+    width: 150px;
+    top: 380px;
+}
+
+.splide__pagination__page:hover {
+    background-color: grey;
+}
+
+.slide__content > img {
+        object-fit: cover;
+        height: 60%;
+        width: 1700px;
+        transform: translate(-35%,15%);
+        position: relative; 
+    }
+
+
+    /* TOSHIBA */
+
+    
