@@ -193,4 +193,68 @@ document.addEventListener("DOMContentLoaded", function () {
 // Toshiba
 
 
-  
+  document.addEventListener("DOMContentLoaded", function () {
+    var splide = new Splide("#check", {
+      type   : 'loop',
+      height     : '35rem',
+      perPage: 4,
+      rewind: true,
+    });
+
+    splide.mount();
+  });
+
+  document.addEventListener("DOMContentLoaded", function () {
+    var splide = new Splide("#fat", {
+      type   : 'loop',
+      height     : '35rem',
+      perPage: 4,
+      rewind: true,
+    });
+
+    splide.mount();
+  });
+
+  document.addEventListener("DOMContentLoaded", function () {
+    var splide = new Splide("#best", {
+      type   : 'loop',
+      height     : '35rem',
+      perPage: 4,
+      rewind: true,
+    });
+
+    splide.mount();
+  });
+
+  document.addEventListener("DOMContentLoaded", function () {
+    var splide = new Splide("#wash", {
+      type   : 'loop',
+      height     : '35rem',
+      perPage: 4,
+      rewind: true,
+    });
+
+    splide.mount();
+  });
+
+  document.addEventListener("DOMContentLoaded", function () {
+    var splide = new Splide("#laptop", {
+      type   : 'loop',
+      height     : '35rem',
+      perPage: 4,
+      rewind: true,
+    });
+
+    splide.mount();
+  });
+
+  document.addEventListener("DOMContentLoaded", function () {
+    var splide = new Splide("#speakers", {
+      type   : 'loop',
+      height     : '35rem',
+      perPage: 4,
+      rewind: true,
+    });
+
+    splide.mount();
+  });

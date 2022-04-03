@@ -6,10 +6,15 @@
 }
 html {
     scroll-behavior: smooth;
+    /* background-color: rgb(235, 232, 232); */
   }
 a {
     text-decoration: none;
     color: white;
+}
+
+.dr-down {
+    width: 50%;
 }
 
 .redSearch {
@@ -61,6 +66,7 @@ ul > li > h2 {
     margin-top: 52px;
     display: flex;
     align-items: center;
+    position: relative;
 }
 .bottom img {
     width: 186px;
@@ -87,11 +93,10 @@ ul > li > h2 {
     width: 25%;
 }
 .cart-login {
-    /* border: 1px solid white; */
     height: 35px;
      color: white;
      display: flex;
-     margin-left: 125px;
+     margin-left: 100px;
      padding: 20px 5px;
      align-items: center;
 }
@@ -108,7 +113,6 @@ nav {
 .nav-content {
     max-width: 100%;
     margin-inline: auto;
-    /* border: 3px solid rgb(55, 180, 86); */
     color: white;
     height: 100%;
     display: flex;
@@ -118,11 +122,11 @@ nav {
 .nav-option {
     height: 100%;
     display: flex;
-    /* border: 1px solid black; */
     padding: 14px 8px 15px 8px;
     gap: 10px;
     margin-top: 0px;
     font-weight: light;
+    /* background: #1f4985 url("data:image/svg+xml;utf8,<svg viewBox='0 0 140 140' width='24' height='24' xmlns='http://www.w3.org/2000/svg'><g><path d='m121.3,34.6c-1.6-1.6-4.2-1.6-5.8,0l-51,51.1-51.1-51.1c-1.6-1.6-4.2-1.6-5.8,0-1.6,1.6-1.6,4.2 0,5.8l53.9,53.9c0.8,0.8 1.8,1.2 2.9,1.2 1,0 2.1-0.4 2.9-1.2l53.9-53.9c1.7-1.6 1.7-4.2 0.1-5.8z' fill='white'/></g></svg>") no-repeat; */
 }
 .fa-v {
     font-size: 13px;
@@ -136,11 +140,73 @@ nav > li > p {
     background-color: #e42529;
 }
 
+
+
+#main{
+    display: flex;
+    border: 4px solid red;
+}
+
+#left{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,auto);
+    width:  59%;
+    height: 400px; 
+    margin-left: 20px; 
+    background-color: #1f4985;
+}
+.lt > ul{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+.lt ul li{
+    list-style: none;
+    padding: 7px;
+}
+.lt ul li a{
+    text-decoration: none;
+    color: white;
+}
+.lt ul li a:hover{
+  cursor: pointer;
+}
+.txt:hover {
+ text-decoration: underline;
+}
+#first{
+ font-weight: 900;
+    
+}
+#right{
+    background-color:#1f4985;
+    /* border: 2px solid red; */
+    position: relative;
+    width: 30%;
+}
+#right>img{
+   /* margin-left: 60px; */
+   width: 700px;
+   position: absolute;
+   /* height: 100%; */
+} 
+
+
+
+
+
+
+
+
+
+
+
+
 /* Slider */
 .wrapper {
   width: 100%;
   overflow: hidden;
-  /* border: 3px solid goldenrod;   */
   height: 350px;
 }
 
@@ -226,7 +292,6 @@ nav > li > p {
     display: flex;
     justify-content: space-evenly;
     height: 260px;
-    /* margin-bottom: 50px; */
 }
 
 #staycool>img{
@@ -235,8 +300,6 @@ nav > li > p {
     margin-left: -2%;
     margin-bottom: 32px;
 }
-
-
 
 .title{
     font-size: 30px;
@@ -247,6 +310,19 @@ nav > li > p {
     color: #333333;
     margin-left: 2%;
 }
+.pro-name {
+    margin-top: 50px;
+    margin-bottom: -3px;
+}
+.title3 {
+    font-size: 30px;
+    font-weight: 100;
+    font-family: Roboto,"system-ui",sans-serif;
+    top: 50%;
+    color: #333333;
+    margin-left: 2%;
+    display: block;
+}
 
 /* 2nd Integration */
 
@@ -256,7 +332,6 @@ nav > li > p {
     display: flex;
     justify-content: space-evenly;
     height: 260px;
-    /* margin-bottom: 50px; */
 }
 
 #latesttechnology>img{
@@ -283,7 +358,6 @@ nav > li > p {
     display: flex;
     justify-content: space-evenly;
     height: 260px;
-    /* margin-bottom: 50px; */
 }
 
 #iphone13 > img{
@@ -297,7 +371,6 @@ nav > li > p {
 /* _______________________________________________________ */
  /* 5th Integration -> Slider  */
 .pro {
-    /* border: 1px solid darkcyan; */
     margin-top: 4%;
     margin-bottom: -2%;
 }
@@ -325,27 +398,19 @@ nav > li > p {
     width: 100%;
     justify-content: center;
     margin-top: 2%;
-    /* border: 3px solid yellow; */
    height: 300px;
 }
-/* .whole{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-} */
+
 .slide img{
-    /* margin-left: 70px; */
     display: inline-block;
    width:110%;
    height:110%;
    object-fit: contain;
    object-position: center;
    transform: translateY(10%);
-   /* border: 1px solid red;  */
 }
 .caption{
-    /* width: 100%; */
     box-sizing: border-box;
-    /* margin-left: 100px; */
     text-align: center;
     color: #1f4985;
     font-weight: bold;
@@ -505,29 +570,36 @@ margin-right: -15px; */
 
 /* Testing _____________________________________________________________________ */
 
+
+
 .splide__slide {
-    padding: 6rem;
+    padding: 1rem;
     padding-top: 1rem;
     display: flex;
     justify-content: center;
     background: #ecf0f1;
 }
 
-.splide__slide__container {
+.splide__slide__container{
+    /* border: 2px solid purple; */
     width: 400px;
+    /* height: 60%; */
     text-align: center;
-    
+    /* margin-top: -20%; */
+    /* background-color: rgb(255, 226, 232); */
 }
+
+
 .splide__arrow {
     background: none;
     font-size: larger;
     margin-top: 2%;
-    fill: lightgray;
+    /* fill: red; */
 }
 .splide__arrow:hover {
     background: none;
     cursor: pointer;
-   fill: white;
+   fill: lightgray;
 }
 
 /* .splide__arrow--prev { */
@@ -567,7 +639,7 @@ margin-right: -15px; */
     max-height: 25px;
     /* top: 10px;	*/
     width: 150px;
-    top: 380px;
+    top: 360px;
 }
 
 .splide__pagination__page:hover {
@@ -584,5 +656,257 @@ margin-right: -15px; */
 
 
     /* TOSHIBA */
+        svg {
+            fill: #333333;
+        }
+        svg:hover {
+            fill: gray;
+        }
+        
+        /* INSIDE BOX CSS*/
 
+        
+
+   .boxn > button:hover {
+    background-color: green;
+    color: white;
+    }
+    .boxn {
+        margin-top: 5rem;
+        margin-inline: 2.5rem;
+        display: block;
+        padding-inline: 2.5%;
+        grid-template-columns: repeat(7,1fr);
+        grid-template-rows: repeat(auto);
+        gap: 10px;
+        margin-left: 5px;
+        border-radius: 15px;
+        font-family: Roboto,"system-ui",sans-serif;
+        font-weight: 400;
+        position: relative;
+        /* background-color: rgb(247, 241, 229); */
+    }
+
+    .boxn > p:nth-child(1) {
+        margin-top: 1%;
+    }
+    .boxn > img {
+        object-fit: cover;
+        width: 230px;
+        height: 230px; 
+        transform: translate(1%,-5%);
+        /* border: 4px solid gold; */
+        position: relative;
+    }
+        
+    .boxn > p {
+        margin: -5px;
+        margin-bottom: 2%;
+        font-size: 17px;
+        color: #565656;
+        font-family: Roboto,"system-ui",sans-serif;
+        position: absolute;
+        left: 20px;
+    }
+    ul > .boxn > p:first-child {
+        font-size: 0%;
+    }
+    .p1 {
+    bottom: -50px;
+    right: 75px;
+    /* left: 15px; */
+    /* margin:3px 0; */
+    }
+    .p2 {
+    bottom: -70px;
+    right: 140px;
+    /* margin: 40px 0; */
+    }
+    .p3 {
+    bottom: -90px;
+    right: 88px;
+    }
+
+    .boxn > button{
+        color: green;
+        border: 1px solid green;
+        padding: 0 1%;
+        border-radius: 20px;
+        margin-top: -1%;
+        letter-spacing: 1px;
+        font-size: 60%;
+        position: absolute;
+        left: 40px;
+        bottom: -120px;
+        /* top: 150px; */
+        }
+
+    .titlen {
+    color: rgb(3, 3, 243);
+    }
+    .titlen:hover {
+    color: red;
+    }
+
+    .boxn > a {
+    text-decoration: none;
+    font-size: 18px;
+    overflow: hidden;
+    /* margin-bottom: 40px; */
+    }
+    .boxn > a > p:first-child {
+    /* color: red; */
+    margin-bottom: 20px;
+    }
+
+    .bgn {
+    font-size:135%;
+    color: black;
+    font-weight: bold;
+    display: inline;
+    }
+    .dshn {
+    text-decoration: line-through;
+    display: inline;
+    }
+
+
+
+    /* Footer */
+
+    #fcontainer{
+        height: 500px;
+        width: 100%;
+        font-family: Roboto,"system-ui",sans-serif;
+        background-color: #1f4985;
+        margin: auto;
+        display: flex;
+        position: relative;
+        
+    }
+    .box1{
+        height: 430px; 
+        width: 25%;
+        /* border: 1px solid black; */
+        color: white;
+    }
+    .box1 > p {
+        margin-top: 20px;
+        font-size: 16px;
+        margin-left: 35px;
+    }
+    .box1 > h3 {
+        margin-top: 20px;
+        font-size: 20px;
+        margin-left: 35px;
+    }
+    .box2{
+        height: 300px; 
+        width: 25%;
+        /* border: 1px solid black; */
+        color: white;
+    }
+    .box2 > h3 {
+        margin-top: 20px;
+        font-size: 20px;
+        margin-left: 35px;
+    }
+    .box2 > p {
+        margin-top: 20px;
+        font-size: 16px;
+        margin-left: 35px;
+    }
+    .box3{
+        height: 300px; 
+        width: 25%;
+        /* border: 1px solid black; */
+        color: white;
+    }
+
+    .box3 > h3 {
+        margin-top: 20px;
+        font-size: 20px;
+        margin-left: 35px;
+    }
+    .box3 > p {
+        margin-top: 20px;
+        font-size: 16px;
+        margin-left: 35px;
+    }
     
+
+    .box4{
+        height: 430px; 
+        width: 25%;
+        color: white;
+    }
+
+    .box4 > h3 {
+        margin-top: 20px;
+        font-size: 20px;
+        margin-left: 35px;
+    }
+    .box4 > p {
+        margin-top: 20px;
+        font-size: 16px;
+        margin-left: 35px;
+    }
+
+    .box5 > img{
+        height: 38px;
+        background-color: #1f4985;
+        margin-bottom: 90px;
+        margin-left: 35px;
+        border-radius: 5px;
+    
+    }
+   
+    .box5{
+        /* height: 25%;s */
+        width: 25%;
+        /* border: 1px solid yellow;    */
+        position: absolute;
+        bottom: 50px;
+        left: 350px;
+        bottom: -15%;
+        color: white;
+    }
+
+    .box5 > img {
+        margin-top: 20px;
+        width: 38%;
+        height: 40%;
+        margin-left: 0px;
+        margin-inline: 5px;
+        /* border: 2px solid red; */
+    }
+    .fa-facebook-f{
+        margin: 20px;
+        margin-right: 10px;
+        margin-left: 40px;
+    }
+    .fa-twitter{
+        margin: 20px 10px;
+    }
+    .fa-youtube{
+        margin: 20px 10px;
+    }
+    hr {
+        margin-top: 15px;
+        border: 0.01px solid;
+    }
+    .box6{
+        height: 80px;
+        width: 100%;
+        border: none;
+        border: 1px solid #0a244a;
+        background-color: #0a244a;
+        margin-top: none;
+    }
+    .box6>p{
+        margin-top: 15px;
+        color: white;
+        text-align: center;
+    }
+
+
