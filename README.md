@@ -20,8 +20,6 @@ This is a clone of Reliance Digital web app comprising of it's major features
 - Products Page
 - Product Description Page
 
-Additional information regarding the product [Reliance Digital][df1]
-
 
 ## Tech
 
