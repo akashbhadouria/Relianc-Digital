@@ -113,12 +113,12 @@ Project Demo
 
 ### Register Page
 
-![image](https://user-images.githubusercontent.com/25353461/161504823-59ab3861-db40-4ffe-830c-967c641d807c.png)
+![image](https://user-images.githubusercontent.com/25353461/161504988-fa619a30-fae9-46a6-8726-6f07178c9fd3.png)
 
 
 ### Footer
 
+![image](https://user-images.githubusercontent.com/25353461/161504823-59ab3861-db40-4ffe-830c-967c641d807c.png)
 
-![Uploading image.png…]()
 
 
