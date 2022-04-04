@@ -14,21 +14,14 @@ This is a clone of Reliance Digital web app comprising of it's major features
 
 ## Features
 
-- Feature 1
-- Feature 2
-- Feature 3
-- Feature 4
-- Feature 5
+- Login / sign Up Page
+- Landing Page
+- Cart Page
+- Products Page
+- Product Description Page
 
 Additional information regarding the product [Reliance Digital][df1]
 
-> The overriding design goal for Markdown's 
-> formatting syntax is to make it as readable
-> as possible. The idea is that a
-> Markdown-formatted document should be
-> publishable as-is, as plain text, without
-> looking like it's been marked up with tags
-> or formatting instructions.
 
 ## Tech
 
@@ -36,30 +29,20 @@ Reliance Digital uses a number of open source technologies to work properly:
 
 - [HTML] - HTML enhanced for web apps!
 - [VS Code Editor] - awesome web-based text editor
-- [Tool1 / Tech1 / Library1] - Information regarding it and what we used it for.
-- [Tool2 / Tech2 / Library2] - Information regarding it and what we used it for.
-- [Tool3 / Tech3 / Library3] - Information regarding it and what we used it for.
-- [Too4 / Tech4 / Library4] - Information regarding it and what we used it for.
-- [Tool5 / Tech5 / Library5] - Information regarding it and what we used it for.
-- [Breakdance](https://breakdance.github.io/breakdance/) - HTML
-to Markdown converter
-- [jQuery] - duh
+- [Splide] - Javscript Library for implementing Sliders.
+- [CSS] - Used it for styling the web page.
+- [BootStrap] - Used to implement few designs.
+- [JavaScript] - Used it for the backend implementation.
 
-And of course Dillinger itself is open source with a [public repository][dill]
+
+And of course Splide itself is open source library
  on GitHub.
 
 ## Installation
 
-This app requires [Tech Stack name](https://developer.mozilla.org/en-US/) to run.
+This app requires [VS Code Editor](https://developer.mozilla.org/en-US/) to run.
 
-Install the dependencies and start the contributing to it.
-
-```
-commands to
-install any
-relevant stuff to
-run the product
-```
+Do not Install any dependencies and start the contributing to it.
 
 
 ## Accessibility
@@ -72,15 +55,11 @@ Instructions on how to use them in your own application are linked below.
 
 | GitHub | [plugins/github/README.md][PlGh] |
 
-| Google Drive | [plugins/googledrive/README.md][PlGd] |
-
-| Medium | [plugins/medium/README.md][PlMe] |
-
 ## Development
 
 Want to contribute? Great!
 
-Reliance Digital uses Tech name + Library name for fast developing.
+Reliance Digital uses HTML/CSS/JS + Splide & Bootstrap name for fast developing.
 Make a change in your file and instantaneously see your updates!
 
 Verify the deployment by navigating to your server address in
