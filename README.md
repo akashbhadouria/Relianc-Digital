@@ -48,11 +48,6 @@ Do not Install any dependencies and start the contributing to it.
 Reliance Digital is currently extended with the following browswers & devices.
 Instructions on how to use them in your own application are linked below.
 
-| README |
-| ------ | ------ |
-
-| GitHub | [plugins/github/README.md][PlGh] |
-
 ## Development
 
 Want to contribute? Great!
