@@ -1,4 +1,4 @@
-# “reliancedigital.com” Website Clone
+# “Reliance Digital” Website Clone
 
 Reliance Digital is an Indian consumer electronics retailer. It is a subsidiary of Reliance Retail, a wholly owned subsidiary of Reliance Industries. Reliance Digital opened its first store on 24 April 2007 in Delhi.
 
