@@ -1,5 +1,7 @@
 ![image](https://user-images.githubusercontent.com/25353461/160546076-7073adaa-f343-4d68-8668-fadb3d2f3550.png)
 
+Reliance Digital is an Indian consumer electronics retailer. It is a subsidiary of Reliance Retail, a wholly owned subsidiary of Reliance Industries. Reliance Digital opened its first store on 24 April 2007 in Delhi.
+
 # Reliance-Digital
 ### An E-Commerce application which provides the world class products to the consumers.
 
